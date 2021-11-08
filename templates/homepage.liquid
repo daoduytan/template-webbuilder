@@ -1,0 +1,19 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+      {% include 'head' %}
+    </head>
+    <body>
+        <!-- header -->
+        {% include 'header.liquid' %}
+        <!-- content -->
+        <main class="main">
+            {% block %}{% endblock %}
+        </main>
+          <!-- footer -->
+        {% include 'footer.liquid' %}
+        <!--  script -->
+    </body>
+</html>
+

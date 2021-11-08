@@ -1,0 +1,20 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+      {% include 'head' %}
+    </head>
+    <body>
+        <!-- header -->
+        {% include 'header.liquid' %}
+        <!-- content -->
+        <main class="main">
+            <div>
+              404 page
+            </div>
+            {% block %}{% endblock %}
+        </main>
+          <!-- footer -->
+        {% include 'footer.liquid' %}
+    </body>
+</html>
