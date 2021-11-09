@@ -3,18 +3,24 @@
 <html lang="en">
     <head>
       {% include 'head' %}
+      <link rel="stylesheet" href="css/404-style.css">
     </head>
     <body>
         <!-- header -->
         {% include 'header.liquid' %}
         <!-- content -->
         <main class="main">
-            <div>
-              404 page
+            <div class="notfound-page">
+              <div class="content text-center">
+                <div class="title"><span>404</span></div>
+                <p>
+                  Trang này không tồn tại
+                </p>
+                <a href="/" class="btn btn-bg btn-rounder">Quay lại</a>
+              </div
             </div>
             {% block %}{% endblock %}
         </main>
           <!-- footer -->
-        {% include 'footer.liquid' %}
     </body>
 </html>
