@@ -42,7 +42,7 @@
   background-size: cover;
   background-attachment: scroll;
   background-origin: content-box;
-  background-image: url("https://w.ladicdn.com/s1440x672/5fc73dd6f711010011ef05ab/truc-chi2-20210716032519.jpg");
+  background-image: url("/images/truc-chi2-20210716032519.webp");
   background-position: center top;
   background-repeat: repeat;
 }
@@ -400,6 +400,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
   }
+
   .section-4__content ul li.img img {
     display: block;
     height: 325px;
@@ -412,6 +413,11 @@
 @media (max-width: 767px) {
   .section-4__content {
     margin-top: 30px;
+  }
+
+  .section-4__content ul li.img img {
+    display: block;
+    max-width: 100%;
   }
 }
 
